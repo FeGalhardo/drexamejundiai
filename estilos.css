@@ -152,6 +152,9 @@ button {
 
     body{
         width: 300px;
+        align-content: center;
+        justify-content: center;
+        margin-left: 15px;
     }
 
     .naveg {
