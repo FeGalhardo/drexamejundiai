@@ -1,0 +1,247 @@
+body{
+
+    font-family:sans-serif;
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.logo2{
+
+    display: none;
+}
+
+.exames-container{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+
+    height: 70px;
+    margin: 15px 15px;
+}
+
+.cont-1-text{
+    color: #212121;
+
+}
+.link-contato{
+    text-decoration: none;
+    color: white;
+}
+.link-nav {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    height: 80px;
+}
+.nav-exam{
+
+    display: flex;
+    flex: row;
+}
+
+.foto-ex {
+    width: 100px;
+}
+
+.topo{
+    margin-left: 20px;
+    background-image: url("./img/capa.png");
+    margin-top: 0;
+}
+
+.parag-topo{
+
+    font-size: 20px;
+    width: 500px;
+    border-radius: 8px;
+    background-color: #268583;
+    padding: 15px 15px;
+    color: white;
+}
+
+.naveg{
+
+    background-color: #e4e4e4;
+    margin-bottom: 0;
+
+}
+.tipo-exame{
+    border-radius: 8px ;
+    width: 120px;
+    border-color: #00796B;
+    display: flex;
+    padding: 10px 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 5px;
+    background-color: #00796B;
+}
+
+
+
+
+
+
+.ex-img{
+
+    height: 80px;
+    width: auto;
+
+}
+
+
+button {
+
+    text-decoration: none;
+}
+
+.bot-princ{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: white;
+    background-color: #B93330;
+
+}
+
+.imagem-slider {
+
+   border-radius: 10px; 
+
+
+}
+.seta{
+
+    height: 50px;
+
+
+}
+.av{
+
+    background-color: #268583;
+
+}
+
+.ic-porq{
+
+    height: 50px;
+    width: auto;
+    
+}
+
+.parag-mob{
+
+    visibility: hidden;
+    height: 0;
+
+}
+
+
+@media (max-width:900px) {
+
+    body{
+        width: 300px;
+    }
+
+    .naveg {
+
+        visibility: hidden;
+        height: 0;
+    }
+    .topo {
+
+        width: 100%;
+        
+    }
+
+
+    .cont-1-text{
+
+            width: 80%;
+    
+        font-size: 20px;
+        text-size-adjust:inherit;
+
+    }
+    .parag-topo{
+
+     display: none;
+    
+    }
+
+    .nav-exam{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-content: space-between;
+
+        
+    }
+    .exames-container{
+
+        display: flex;
+        flex-direction: row;
+        
+
+    }
+
+    .botoes{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .parag-mob{
+        width:  70%;
+        height: fit-content;
+        visibility: visible;
+        color: black;
+    }
+
+    #nome{
+
+        display: none;
+    }
+
+    .logo2{
+        padding-top: 5px;
+       width:  70%;
+       display:flex;
+    }
+
+    .porq{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .porq-h2{
+        width:  80%;
+    }
+
+    
+    .porq-p{
+        width:  80%;
+    }
+
+    h2{
+        width:  80%;
+    }
+    p{
+        width:  80%;
+    }
+
+    .av{
+        width: 100%;
+    }
+}
