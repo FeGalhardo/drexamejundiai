@@ -291,12 +291,15 @@ button {
     }
 
     .porq-h2{
-        width:  80%;
+        width:  270px;
+        margin-left: 5px;
     }
 
     
     .porq-p{
         width:  80%;
+        margin-left: 5px;
+        font-size: 20px;
     }
 
     h2{
