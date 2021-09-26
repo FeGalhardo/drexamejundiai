@@ -8,6 +8,36 @@ body{
 
 }
 
+.conj-1{
+
+    border: 2px solid #B93330;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 10px 10px;
+    
+}
+
+
+.icones-tit{
+
+    width: 150px;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.porq{
+
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.porq-icones{
+
+    display: flex;
+    flex-direction: row; 
+}
 
 
 .logo2{
@@ -29,6 +59,7 @@ body{
 
 .cont-1-text{
     color: #212121;
+    width: 600px;
 
 }
 .link-contato{
@@ -56,6 +87,7 @@ body{
     margin-left: 20px;
     background-image: url("./img/capa.png");
     margin-top: 0;
+    background-repeat:no-repeat;
 }
 
 .parag-topo{
@@ -135,9 +167,19 @@ button {
 
 .ic-porq{
 
-    height: 50px;
+    height: 85px;
     width: auto;
     
+}
+
+.conj-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
 }
 
 .parag-mob{
@@ -155,6 +197,15 @@ button {
         align-content: center;
         justify-content: center;
         margin-left: 15px;
+    }
+
+    .conj-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
     }
 
     .naveg {
@@ -226,6 +277,9 @@ button {
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items:baseline;
+        justify-content: left ;
+        margin-left: 20px;
     }
 
     .porq-h2{
