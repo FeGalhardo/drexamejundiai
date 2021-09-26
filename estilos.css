@@ -208,6 +208,12 @@ button {
 
     }
 
+    .porq-icones{
+
+        display: flex;
+        flex-direction: column; 
+    }
+
     .naveg {
 
         visibility: hidden;
