@@ -8,6 +8,19 @@ body{
 
 }
 
+
+.depo{
+
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    
+}
+
 .conj-1{
 
     border: 2px solid #B93330;
@@ -16,6 +29,7 @@ body{
     padding: 10px 10px;
     
 }
+
 
 
 .icones-tit{
@@ -55,6 +69,47 @@ body{
 
     height: 70px;
     margin: 15px 15px;
+}
+
+.cont-Av{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+
+
+}
+
+
+.av-but{
+
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: #884847
+
+}
+
+.confira-av {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+
+
+}
+
+.avaliacao{
+
+
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+
 }
 
 .cont-1-text{
@@ -159,9 +214,13 @@ button {
 
 
 }
-.av{
+.Av{
 
     background-color: #268583;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
 
 }
 
@@ -178,6 +237,7 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 50px;
 
 
 }
@@ -196,7 +256,17 @@ button {
         width: 300px;
         align-content: center;
         justify-content: center;
-        margin-left: 15px;
+    
+    }
+
+
+    .avaliacao{
+
+
+        height: auto;
+        width: 250px;
+        border-radius: 10px;
+    
     }
 
     .conj-1 {
@@ -309,7 +379,30 @@ button {
         width:  80%;
     }
 
-    .av{
-        width: 100%;
+    .Av{
+        margin-left: 0;
+        width: 400px;
+        flex-direction: column;
+    }
+
+    .depo{
+        margin-left: 0;
+    }
+    .imagem-slider{
+
+        height: auto;
+        width: 250px;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .setaesq {
+
+        margin-right: 0;
+    }
+
+    .setadir{
+
+        margin-left: 0;
     }
 }
