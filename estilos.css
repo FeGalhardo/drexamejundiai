@@ -198,7 +198,7 @@ s
     border-radius: 8px ;
     width: 120px;
     border-color: #00796B;
-   
+   height: 200px;
     display: flex;
     padding: 10px 10px;
     flex-direction: column;
