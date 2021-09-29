@@ -8,6 +8,12 @@ body{
 
 }
 
+.foto-jund{
+
+
+    width: 350px;
+    height: auto;
+}
 
 .depo{
 
@@ -275,6 +281,13 @@ button {
 
     height: 50px;
     width: auto;
+}
+
+.endereco-col{
+
+
+    display: flex;
+    flex-direction: column;
 }
 
 
