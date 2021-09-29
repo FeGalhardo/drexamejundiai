@@ -98,12 +98,12 @@ body{
     height: 60px;
     border-radius: 10px;
     background: #884847
-
+s
 }
 
 .contatos{
 
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .confira-av {
@@ -307,11 +307,11 @@ button {
 
     .endereco{
 
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .contatos{
 
-        margin-left: 70px;
+        margin-left: 30px;
     }
 
     .at-p{
@@ -320,7 +320,7 @@ button {
 
     .cont-Av{
 
-        margin-left: 15px;
+        margin-left: 10px;
         align-content: left;
         justify-content: left;
         justify-items: left;
