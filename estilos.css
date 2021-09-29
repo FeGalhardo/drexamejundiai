@@ -9,6 +9,18 @@ body{
 }
 
 
+.wpp-icon{
+
+    display: flex;
+    position: fixed;
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
+   top: 80%;
+  
+
+}
+
 .depo{
 
     margin-left: 100px;
@@ -140,6 +152,7 @@ s
 .link-contato{
     text-decoration: none;
     color: white;
+    width: 250px;
 }
 .link-nav {
     text-decoration: none;
@@ -185,6 +198,7 @@ s
     border-radius: 8px ;
     width: 120px;
     border-color: #00796B;
+   
     display: flex;
     padding: 10px 10px;
     flex-direction: column;
@@ -227,6 +241,7 @@ button {
     padding: 10px 10px;
     color: white;
     background-color: #B93330;
+    width: 200px;
 
 }
 
@@ -332,6 +347,9 @@ button {
 }
 
 .link-local{ margin-left: 0px;}
+
+
+
 @media (max-width:900px) {
 
     body{
@@ -561,4 +579,42 @@ button {
 
         margin-left: 0;
     }
+
+
+    .wpp-icon{
+
+        right: 3%;
+    }
+
+    
+}
+
+.tipo-exame:hover{
+
+
+    background-color: #884847;
+    width: 150px;
+    
+
+}
+
+
+.wpp-icon:hover{
+    
+    width: 150px;
+}
+
+
+.but-local:hover{
+
+    background-color: yellow;
+
+
+}
+.wpp-topo{
+
+    width: 20px;
+    height: auto;
+
+
 }
