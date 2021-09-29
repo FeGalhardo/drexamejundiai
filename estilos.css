@@ -25,7 +25,7 @@ body{
 
     border: 2px solid #B93330;
     border-radius: 8px;
-    margin-left: 10px;
+    margin-left: 30px;
     padding: 10px 10px;
     
 }
@@ -75,22 +75,35 @@ body{
 
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 25px;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
 
 
 
 }
 
-
+.Av{
+  justify-items: center;
+  align-items: center;
+}
 .av-but{
 
-    margin-left: 40px;
+    margin-left: 120px;
     margin-top: 20px;
     width: 200px;
     height: 60px;
     border-radius: 10px;
     background: #884847
 
+}
+
+.contatos{
+
+    margin-left: 40px;
 }
 
 .confira-av {
@@ -101,6 +114,7 @@ body{
     font-weight: bolder;
 
 
+
 }
 
 .avaliacao{
@@ -109,6 +123,7 @@ body{
     height: auto;
     width: 300px;
     border-radius: 10px;
+    margin-left: 80px;
 
 }
 
@@ -221,6 +236,10 @@ button {
     display: flex;
     flex-direction: row;
     margin-left: 0;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
@@ -238,6 +257,7 @@ button {
     justify-content: center;
     text-align: center;
     margin-bottom: 50px;
+    margin-left: 30px;
 
 
 }
@@ -249,7 +269,32 @@ button {
 
 }
 
+.icone-local{
 
+
+    height: 50px;
+    width: auto;
+}
+
+
+.but-local{
+
+    border-radius: 8px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.endereco-p{
+    margin-left: 20px;
+}
+
+.text-local{
+
+    margin-left: 30px;
+}
+
+.link-local{ margin-left: 30px;}
 @media (max-width:900px) {
 
     body{
@@ -257,6 +302,38 @@ button {
         align-content: center;
         justify-content: center;
     
+    }
+
+    .endereco{
+
+        margin-left: 40px;
+    }
+    .contatos{
+
+        margin-left: 40px;
+    }
+
+    .cont-Av{
+
+        margin-left: 40px;
+    }
+
+    .at-ex{
+
+
+        margin-left: 40px;
+    }
+    .porq-icones{
+
+        margin-left: 50px;
+    }
+
+
+    .mapa-google{
+
+
+
+        width: 400px;
     }
 
 
@@ -383,6 +460,7 @@ button {
         margin-left: 0;
         width: 400px;
         flex-direction: column;
+        
     }
 
     .depo{
