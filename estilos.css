@@ -16,7 +16,7 @@ body{
     width: 90px;
     height: auto;
     margin-left: 10px;
-   top: 80%;
+   top: 70%;
   
 
 }
@@ -581,6 +581,10 @@ button {
     }
 
 
+    .wpp-icon{
+
+        right: 5%;
+    }
 
     
 }
